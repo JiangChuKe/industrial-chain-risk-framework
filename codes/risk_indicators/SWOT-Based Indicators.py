@@ -1,4 +1,3 @@
-# @Date  : 2024/11/10
 # @Desc  : Network indicators based on the SWOT analysis module
 import numpy as np
 import pandas as pd
@@ -63,6 +62,6 @@ if __name__ == '__main__':
     1. The input must be a CSV file; the output is an XLSX file.
     2. The output directory must already exist.
     """
-    input_filename = r"D:\3.数据库\邻接矩阵\[GCFPN] ADB2025(E72) 73R35S CSV格式\2018.csv"
-    output_filename = r"C:\Users\lenovo\Desktop\GIVCN-ADB73R35S\基于SWOT模块的计算结果\2018 SWOT Results.xlsx"
+    input_filename = "path/to/adjacency_matrix.csv"
+    output_filename = "path/to/swot_results.xlsx"
     main(input_filename, output_filename)

@@ -1,6 +1,6 @@
 # Industrial Chain Risk Framework
 
-Python code accompanying the draft manuscript *The Impact of US Trade Policy Toward China on Global Industrial Chain Risk: A Quantitative Risk Framework*. The scripts calculate network indicators from intermediate-input adjacency matrices and aggregate ten indicators into the Industrial Chain Risk Evaluation Index (ISCREI) using entropy-weighted TOPSIS.
+Python code for calculating network indicators from intermediate-input adjacency matrices and aggregating ten indicators into the Industrial Chain Risk Evaluation Index (ISCREI) using entropy-weighted TOPSIS.
 
 ## Files
 

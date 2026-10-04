@@ -1,7 +1,5 @@
 # !/usr/bin/env python3
 # -*-coding:utf8 -*-
-# @Author: XuFeng
-# @Date: 2024/12/23
 import numpy as np
 import pandas as pd
 
@@ -89,7 +87,7 @@ class Topsis:
 
 
 if __name__ == '__main__':
-    file_name = './data/【用于Python】基于GIVCN-ADB模型的风险指标统计（ADB2025 35R63S 2007-2024）.xlsx'
+    file_name = './data/indicator_inputs.xlsx'
     excel = pd.ExcelFile(file_name)
     topsis = Topsis(excel)
     topsis.main()

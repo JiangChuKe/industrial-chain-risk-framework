@@ -1,4 +1,3 @@
-# @Date  : 2024/11/06
 # @Desc  : Random-walk network indicator: Random-walk centrality
 import numpy as np
 from tqdm import tqdm
@@ -71,7 +70,7 @@ if __name__ == '__main__':
     1. The input must be a CSV file; the output is an XLSX file.
     2. The output directory must already exist.
     """
-    input_filename = r"D:\3.数据库\邻接矩阵\CSV\[GIVCN] ADB2024(E62) 63R13S CSV格式\GIVCN-ADB(13S)-2021.csv"
-    output_filename = r"C:\Users\lenovo\Desktop\2021 CRC Results.xlsx"
+    input_filename = "path/to/adjacency_matrix.csv"
+    output_filename = "path/to/crc_results.xlsx"
 
     main(input_filename, output_filename)

@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 # -*-coding:utf8 -*-
-# @Author: XuFeng / Consolidated version
-# @Date: 2024/11/06
 """
 Overview:
 1. This script calculates four groups of SRPL-based network indicators: IEPI,
@@ -322,8 +320,8 @@ if __name__ == '__main__':
        directory must already exist.
     2. Set filepath and savepath to match your environment.
     """
-    filepath = r"D:\3.数据库\邻接矩阵\CSV\[GIVCN] ADB2025(E62) 63R35S CSV格式\2022.csv"
-    savepath = r"C:\Users\lenovo\Desktop\ADB2025 Results\2022"
+    filepath = "path/to/adjacency_matrix.csv"
+    savepath = "path/to/output_directory"
     index_list = ['IEPI', 'IEUI_AND_IEDI', 'BISC_AND_IBDI', 'FISC_AND_IFDI']
 
     calculate_network_index(

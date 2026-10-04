@@ -1,4 +1,3 @@
-# @Date  : 2024/11/06
 # @Desc  : Network indicators based on the trade brokerage property (TBP) module
 import numpy as np
 import pandas as pd
@@ -67,8 +66,8 @@ if __name__ == '__main__':
     1. The input must be a CSV file; the output is an XLSX file.
     2. The output directory must already exist.
     """
-    input_file = r"D:\3.数据库\邻接矩阵\CSV\[GIVCN] ADB2025(E62) 63R35S CSV格式\2022.csv"
-    output_file = r"C:\Users\lenovo\Desktop\ADB2025 Results\2022 TBP Results.xlsx"
+    input_file = "path/to/adjacency_matrix.csv"
+    output_file = "path/to/tbp_results.xlsx"
     RegionNum = 63
     SectorNum = 35
     trade_brokerage_property(input_file, output_file, region_num=RegionNum, sector_num=SectorNum)

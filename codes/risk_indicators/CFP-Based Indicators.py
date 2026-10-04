@@ -1,4 +1,3 @@
-# @Date  : 2024/11/06
 # @Desc  : Random-walk network indicator: Counting first-passage betweenness
 import numpy as np
 from tqdm import tqdm
@@ -91,7 +90,7 @@ if __name__ == '__main__':
     3. Install PyTorch with a CUDA version compatible with the available GPU:
        https://pytorch.org/get-started/locally/
     """
-    input_filename = r"D:\3.数据库\邻接矩阵\CSV\[GIVCN] ADB2024(E62) 63R13S CSV格式\GIVCN-ADB(13S)-2021.csv"
-    output_filename = r"C:\Users\lenovo\Desktop\2021 CFP Results.xlsx"
+    input_filename = "path/to/adjacency_matrix.csv"
+    output_filename = "path/to/cfp_results.xlsx"
 
     main(input_filename, output_filename)
